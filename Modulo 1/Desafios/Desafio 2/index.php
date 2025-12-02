@@ -11,10 +11,10 @@
 
     </header>
     <main>
-        <p>Nosso site gera uma numero de 1 a 100 clique no botão de "gerar" para gerar outro numero</p>
+        <p>Nosso site gera uma numero de 1 a 10000 clique no botão de "gerar" para gerar outro numero</p>
 
         <?php 
-            $alea=mt_rand(0,100);
+            $alea=mt_rand(0,10000);
             
             //rand(1,100)
             print "<p>O nosso site gerou $alea</p>";
